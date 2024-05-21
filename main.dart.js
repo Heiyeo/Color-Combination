@@ -36840,13 +36840,13 @@ A.a_h.prototype={
 $1(a){var s,r,q=null,p=this.b,o=this.a.f.k(0,p),n=o.k(0,"best")
 n.toString
 s=this.c
-if(B.b.p(n,s))r="Best"
+if(B.b.p(n,s))r="best"
 else{n=o.k(0,"good")
 n.toString
-if(B.b.p(n,s))r="Good"
+if(B.b.p(n,s))r="good"
 else{n=o.k(0,"bad")
 n.toString
-r=B.b.p(n,s)?"Bad":"Unknown"}}return new A.mg(A.uR("Compatibility: "+r,q),A.uR("The compatibility between "+p+" and "+s+" is "+r+".",q),A.a([new A.Ed(new A.a_f(a),q,q,q,q,q,q,!1,q,!0,A.uR("Close",q),q)],t.d),q)},
+r=B.b.p(n,s)?"bad":"Unknown"}}return new A.mg(A.uR(r,q),A.uR(p+" and "+s+" are a "+r+" match.",q),A.a([new A.Ed(new A.a_f(a),q,q,q,q,q,q,!1,q,!0,A.uR("Close",q),q)],t.d),q)},
 $S:293}
 A.a_f.prototype={
 $0(){A.t5(this.a,!1).ei()},
